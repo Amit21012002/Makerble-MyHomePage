@@ -1,0 +1,152 @@
+/* Base Styles */
+.Footer-section {
+    background-color: white;
+    padding: 20px;
+    height: auto; /* Change fixed height to auto for flexibility */
+    padding-top:0px ;
+}
+
+/* Logo and Line */
+.line-section {
+    background: url("https://d3hquexcimrmu6.cloudfront.net/assets/sprites/layout/line-af27d2e96b6111a10a19e1bccb88566795565fd3c6cfccb2be41cd9968815840.png");
+    width: 90%;
+    height: 10px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.Line-logo p {
+    color: white;
+    background-color: #2f2d2c;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 100%;
+    font-size: 15px;
+    margin-top: -28px;
+}
+
+/* Footer Tabs */
+.Footer-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%; /* Reduced margin for mobile responsiveness */
+    gap: 5%;
+}
+
+.Footer-tabs-section {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Footer-tabs-link-section {
+    width: 25%;
+}
+
+.link-sections {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.link-sections svg {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    object-fit: contain;
+}
+
+/* Contact Us Section */
+.Footer-contactus-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+.Footer-contactus-section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.Footer-contactus-section li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Responsive Styles */
+
+/* For tablets (screens between 600px and 1024px) */
+@media only screen and (max-width: 1024px) {
+    .Footer-tabs {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Footer-tabs-section, .Footer-tabs-link-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Footer-contactus-section ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* For mobile phones (screens smaller than 600px) */
+@media only screen and (max-width: 600px) {
+    .Footer-section {
+        padding: 10px;
+    }
+
+    .Footer-tabs {
+        flex-direction: column;
+        margin: 0;
+        gap: 15px;
+    }
+
+    .Footer-tabs-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Footer-tabs-section p, .Footer-tabs-section h4 {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .Footer-contactus-section ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .Footer-contactus-section {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .link-sections {
+        justify-content: center;
+    }
+
+    .link-sections svg {
+        height: 25px;
+        width: 25px;
+    }
+
+    /* Adjust the "Contact Us" section font size */
+    .Footer-contactus-section p, .Footer-contactus-section li {
+        font-size: 14px;
+    }
+}

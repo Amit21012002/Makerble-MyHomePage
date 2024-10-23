@@ -1,0 +1,225 @@
+.Albums-sections{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px ;
+    background-color: white;
+    color: #357ab5;
+    padding: 20px 20px;
+    margin: 10px;
+    margin-left: 0;
+    }
+    
+    .Albums-section1 Button{
+    float: right;
+    margin: 3px;
+    
+    margin-left: auto;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #357ab5;
+    
+    }
+    
+    .Albums-sections {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        color: #357ab5;
+        padding: 20px 20px;
+        margin: 10px;
+        margin-left: 0;
+      }
+    
+      Albums-cards DropdownButton{
+        background-color: transparent;
+      }
+      
+    
+      .dropdown-bg .dropdown-toggle::after {
+        display: none;
+      }
+    
+    
+    
+      .Albums-section1 {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid grey;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .Albums-section1 h5 {
+        font-size: 1.5rem;
+      }
+      
+      .Albums-section1 Button {
+        margin: 3px;
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        background-color: #357ab5;
+        padding: 8px 16px; /* Button padding for better touch support */
+        font-size: 1rem;
+        border-radius: 5px;
+      }
+      
+      .Albums-section1 Button svg {
+        margin-right: 5px;
+      }
+      
+      .Albums-sections button {
+        margin-left: auto;
+        font-size: 1rem;
+      }
+      
+      .Albums-cards-sections {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+      
+      .Albums-cards {
+        display: flex;
+        text-align: left;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0;
+        padding-bottom: 10px;
+      }
+      
+      .Albums-cards img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+      }
+      
+      .Albums-cards p {
+        margin-left: 15px;
+        flex-grow: 1;
+        font-size: 1rem;
+      }
+      
+      .Albums-cards svg {
+        margin-left: auto;
+        cursor: pointer;
+        color: #357ab5;
+      }
+      
+      /* Responsive Design */
+      
+      /* Tablet View */
+      @media (max-width: 768px) {
+        .Albums-section1 h5 {
+          font-size: 1.3rem;
+        }
+      
+        .Albums-section1 Button {
+          font-size: 0.9rem;
+          padding: 6px 12px;
+        }
+      
+        .Albums-cards img {
+          width: 45px;
+          height: 45px;
+        }
+      
+        .Albums-cards p {
+          font-size: 0.9rem;
+        }
+      }
+      
+      /* Mobile View */
+      @media (max-width: 576px) {
+        .Albums-section1 {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      
+        .Albums-section1 h5 {
+          font-size: 1.2rem;
+        }
+      
+        .Albums-section1 Button {
+          font-size: 0.8rem;
+          padding: 5px 10px;
+          width: 100%; /* Make button full width for small screens */
+        }
+      
+        .Albums-sections button{
+          font-size: 0.9rem;
+        }
+      
+        .Albums-cards {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      
+        .Albums-cards img {
+          width: 40px;
+          height: 40px;
+        }
+      
+        .Albums-cards p {
+          font-size: 0.8rem;
+          margin-left: 0;
+        }
+      
+        .Albums-cards svg {
+          margin-top: 10px;
+          align-self: flex-start;
+        }
+      }
+      
+    
+    .Albums-section1{
+    display: flex; 
+    flex-direction: row ;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    }
+    
+    .Albums-section-filter{
+        margin: 0px 4px ;
+    
+    }
+    
+    .Albums-section-info{
+        background-color:#357ab5 ;
+        color: white;
+        border-radius: 100%;
+    }
+    
+    .Albums-cards-sections{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+    
+    .Albums-cards{
+        display: flex;
+        flex-direction: row;
+        color: black;
+        width: 100%;
+        color: #357ab5;
+        margin: 5px 0px;
+    }
+    
+    .Albums-cards img{
+    width: 70px;
+    height: 70px;
+    }
+
+    .Albums-cards svg{
+        float: right;
+        display: flexbox;
+        margin-left: auto;
+    }

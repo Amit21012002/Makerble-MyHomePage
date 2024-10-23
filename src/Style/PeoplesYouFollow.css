@@ -1,0 +1,86 @@
+/* General Styles (for desktop and larger screens) */
+.PeoplesYouFollow-sections {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: #357ab5;
+    padding: 20px 20px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.PeoplesYouFollow-section1 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+}
+
+.PeoplesYouFollow-img-sections {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 10px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.PeoplesYouFollow-sections img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    justify-content: center;
+}
+
+.PeoplesYouFollow-sections a {
+    float: right;
+    margin-left: auto;
+}
+
+/* Media Query for Tablets (768px and below) */
+@media (max-width: 768px) {
+    .PeoplesYouFollow-sections {
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .PeoplesYouFollow-section1 h5 {
+        font-size: 1.4rem;
+    }
+
+    .PeoplesYouFollow-img-sections {
+        justify-content: center;
+    }
+
+    .PeoplesYouFollow-sections img {
+        height: 45px;
+        width: 45px;
+    }
+
+    .PeoplesYouFollow-sections a {
+        font-size: 0.9rem;
+    }
+}
+
+/* Media Query for Mobile (480px and below) */
+@media (max-width: 480px) {
+    .PeoplesYouFollow-section1 h5 {
+        font-size: 1.2rem;
+    }
+
+    .PeoplesYouFollow-img-sections {
+        justify-content: center;
+        margin: 10px;
+        gap: 8px;
+    }
+
+    .PeoplesYouFollow-sections img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .PeoplesYouFollow-sections a {
+        font-size: 0.8rem;
+    }
+}

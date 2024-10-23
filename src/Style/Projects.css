@@ -1,0 +1,155 @@
+.Projects-sections {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: #357ab5;
+    padding: 20px 20px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  Projects-cards DropdownButton{
+    background-color: transparent;
+  }
+  
+
+  .dropdown-bg .dropdown-toggle::after {
+    display: none;
+  }
+
+
+
+  .Projects-section1 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Projects-section1 h5 {
+    font-size: 1.5rem;
+  }
+  
+  .Projects-section1 Button {
+    margin: 3px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #357ab5;
+    padding: 8px 16px; /* Button padding for better touch support */
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .Projects-section1 Button svg {
+    margin-right: 5px;
+  }
+  
+  .Projects-sections button {
+    margin-left: auto;
+    font-size: 1rem;
+  }
+  
+  .Projects-cards-sections {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .Projects-cards {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    padding-bottom: 10px;
+  }
+  
+  .Projects-cards img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .Projects-cards p {
+    margin-left: 15px;
+    flex-grow: 1;
+    font-size: 1rem;
+  }
+  
+  .Projects-cards svg {
+    margin-left: auto;
+    cursor: pointer;
+    color: #357ab5;
+  }
+  
+  /* Responsive Design */
+  
+  /* Tablet View */
+  @media (max-width: 768px) {
+    .Projects-section1 h5 {
+      font-size: 1.3rem;
+    }
+  
+    .Projects-section1 Button {
+      font-size: 0.9rem;
+      padding: 6px 12px;
+    }
+  
+    .Projects-cards img {
+      width: 45px;
+      height: 45px;
+    }
+  
+    .Projects-cards p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Mobile View */
+  @media (max-width: 576px) {
+    .Projects-section1 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .Projects-section1 h5 {
+      font-size: 1.2rem;
+    }
+  
+    .Projects-section1 Button {
+      font-size: 0.8rem;
+      padding: 5px 10px;
+      width: 100%; /* Make button full width for small screens */
+    }
+  
+    .Projects-sections a {
+      font-size: 0.9rem;
+    }
+  
+    .Projects-cards {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .Projects-cards img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .Projects-cards p {
+      font-size: 0.8rem;
+      margin-left: 0;
+    }
+  
+    .Projects-cards svg {
+      margin-top: 10px;
+      align-self: flex-start;
+    }
+  }
+  

@@ -1,0 +1,14 @@
+.createpost-section{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 10px;
+    gap: 1%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.search-input{
+    border-radius: 20%;
+}

@@ -1,0 +1,155 @@
+.Stories-sections a{
+float: left;
+margin-left: auto;
+}
+
+.Stories-sections {
+width: 100%;
+background-color: transparent;
+display: flex;
+flex-direction: column;
+}
+
+.Stories-sections a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Stories-section1-Header{
+
+    background-color: white;
+width: 100%;
+text-align: left;
+border-bottom: 1px solid #eaedf2;
+padding: 10px 10px;
+}
+
+.stories{
+background-color: white;
+height: auto;
+margin-bottom: 30px;
+
+}
+
+
+.stories-section1{
+display: flex;
+flex-direction: row;
+text-align: left;
+line-height: 5px;
+gap: 0.5%;
+margin-top: 10px;
+}
+
+.stories-section1 img{
+    width: 10%;
+    height: 50px;
+    object-fit: contain;
+    margin: 5px;
+
+
+}
+
+.stories-profile-section{
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    color: #347bb4;
+}
+
+.stories-profile-section h4{
+    color: #347bb4;
+}
+
+.stories-profile-section-title{
+    background-color: #347bb4;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 0.8em;
+    width: fit-content;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.stories-options{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 10px;
+}
+
+.stories-options svg{
+margin-left: auto;
+
+
+}
+
+
+.stories-contents{
+text-align: left;
+font-size: 0.9em;
+color: #347bb4;
+padding-left: 10px;
+}
+
+
+.stories-interaction-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 20px;
+    gap: 10px;
+}
+
+.stories-interaction-section svg{
+    margin-right: auto;
+    color: red;
+}
+
+
+.stories-comment-section{
+
+border-top: 1px solid #eaedf2;
+display: flex;
+flex-direction: row;
+gap: 5%;
+height: 50px;
+justify-content: center;
+align-items: center;
+}
+
+.stories-comment-section img{
+width: 40px;
+height: 40px; 
+padding: 5px;
+
+}
+.stories-comment-section input{
+width: 70%;
+height: 30px; 
+border: 1px solid black;
+border-radius: 30px;
+padding: 5px;
+
+}
+.stories-comment-section Button{
+background-color: #ee3846;
+margin-left: auto;
+margin-right: 10px;
+height: 30px;
+width: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+

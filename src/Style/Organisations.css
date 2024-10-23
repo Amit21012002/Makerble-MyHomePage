@@ -1,0 +1,74 @@
+.Organisations-sections{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px ;
+    background-color: white;
+    color: #357ab5;
+    padding: 20px 20px;
+    margin: 10px;
+    margin-left: 0;
+    }
+    
+    .Organisations-section1 Button{
+    float: right;
+    margin: 3px;
+    
+    margin-left: auto;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #357ab5;
+    
+    }
+    
+    .Organisations-sections a{
+    float: right;
+    margin-left: auto;
+    }
+    
+    .Organisations-section1{
+    display: flex; 
+    flex-direction: row ;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    }
+    
+    .Organisations-section-filter{
+        margin: 0px 4px ;
+    
+    }
+    
+    .Organisations-section-info{
+        background-color:#357ab5 ;
+        color: white;
+        border-radius: 100%;
+    }
+    
+    .Organisations-cards-sections{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+    
+    .Organisations-cards{
+        display: flex;
+        flex-direction: row;
+        color: black;
+        width: 100%;
+        color: #357ab5;
+        margin: 5px 0px;
+    }
+    
+    .Organisations-cards img{
+    width: 70px;
+    height: 70px;
+    }
+
+    .Organisations-cards svg{
+        float: right;
+        display: flexbox;
+        margin-left: auto;
+    }

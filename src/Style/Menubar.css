@@ -1,0 +1,208 @@
+.navbar-section {
+   background-color: white;
+   height: auto;
+   font-weight: 500;
+   padding: 10px;
+ }
+ 
+ .Navbar-logo {
+   height: 70px;
+   width: auto;
+ }
+ 
+ .tab-section {
+   width: auto !important;
+   padding: 0px !important;
+   margin: 0px !important;
+ }
+ 
+ nav .tab {
+   border: 1px solid grey;
+   border-top: none;
+   border-bottom: none;
+   padding: 15px 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .searchbar {
+   margin-right: auto;
+   margin-left: 2%;
+   border: 2px solid grey;
+   border-radius: 10px;
+   padding: 5px 10px;
+   width: 200px;
+ }
+ 
+ .menubar-icons-sections {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   width: fit-content;
+   margin-right: 2%;
+ }
+ 
+ .menubar-icons-sections svg {
+   height: 25px;
+   width: 25px;
+ }
+ 
+ .flash-icon {
+   height: 25px;
+   width: 25px;
+ }
+ 
+ .menubar-profile-section {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border-right: 1px solid grey;
+   padding: 0 10px;
+ }
+ 
+ .menubar-profile-section img {
+   height: 30px;
+   width: 30px;
+   margin-right: 10px;
+   border-radius: 10px;
+ }
+ 
+ .menubar-profile-section p {
+   font-size: 0.8em;
+   margin: 0;
+ }
+ 
+ .menubar-buttons {
+   display: flex;
+   flex-direction: row;
+   margin-left: 10px;
+ }
+ 
+ .menubar-buttons Button {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: transparent;
+   color: black;
+ }
+ 
+ /* Media Queries for Responsiveness */
+ @media (max-width: 1024px) {
+.Navbar-logo{
+  height: 80px;
+}
+
+   .menubar-profile-section {
+     width: auto;
+     display: none;
+   }
+ 
+   .tab-section {
+     flex-direction: row;
+     width: 100%;
+   }
+ 
+   .searchbar {
+display: none;   }
+
+.menubar-icons-sections{
+  flex-direction: row;
+     display: flex;
+     margin-left: 40%;
+
+}
+ 
+   .menubar-buttons {
+     flex-direction: row;
+     display: flex;
+     margin-left: 35%;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+  .Navbar-logo{
+    height: 80px;
+  }
+
+.navbar-button{
+  border: 1px solid red;
+}
+
+  .Navbar-logo{
+    width: 100%;
+  }
+   .menubar-profile-section {
+     display: none;
+   }
+ 
+   .tab-section {
+     flex-direction: column;
+     justify-content: flex-start;
+   }
+ 
+   .searchbar {
+    display: none;
+   }
+ 
+   .menubar-icons-sections {
+     gap: 5%;
+     width: 100%;
+display: flex;
+align-items: center;
+margin-left: 30%;
+margin-right: 20%;
+
+    }
+ 
+   .menubar-buttons {
+     flex-direction: column;
+     margin-left: 0;
+   }
+ 
+   .navbar-section {
+     padding: 5px;
+   }
+ 
+   nav .tab {
+     padding: 10px 5px;
+     align-items: center;
+
+   }
+ }
+ 
+ @media (max-width: 576px) {
+   .Navbar-logo{
+    height: 80px;
+  }
+   .menubar-buttons {
+     flex-direction: column;
+   }
+ 
+   .menubar-icons-sections {
+     display: none;
+   }
+ 
+   .searchbar {
+     width: 100%;
+   }
+ 
+   .menubar-profile-section {
+     display: none;
+   }
+ 
+   .Navbar-logo {
+     height: 30px;
+     width: auto;
+   }
+ }
+ 
+
+ @media (max-width: 576px) {
+  .Navbar-logo{
+   height: 80px;
+ }
+
+}

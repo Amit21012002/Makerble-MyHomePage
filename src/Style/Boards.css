@@ -1,0 +1,157 @@
+.Boards-sections {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: #357ab5;
+    padding: 20px 20px;
+    margin: 10px;
+    margin-left: 0;
+  }
+  
+  .Boards-section1 Button {
+    float: right;
+    margin: 3px;
+    margin-left: auto;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #357ab5;
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+  
+  .Boards-sections button {
+    float: right;
+    margin-left: auto;
+  }
+  
+  .Boards-section1 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+    align-items: center;
+  }
+  
+  .Boards-section-filter {
+    margin: 0px 4px;
+  }
+  
+  .Boards-section-info {
+    background-color: #357ab5;
+    color: white;
+    border-radius: 100%;
+  }
+  
+  .Boards-cards-sections {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .Boards-cards {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    width: 100%;
+    color: #357ab5;
+    margin: 5px 0px;
+    align-items: center;
+  }
+  
+  .Boards-cards img {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+  }
+  
+  /* Mobile and Tablet Responsiveness */
+  @media screen and (max-width: 768px) {
+    .Boards-sections {
+      padding: 15px 10px;
+    }
+  
+    .Boards-section1 {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .Boards-section1 Button {
+      font-size: 0.9rem;
+      padding: 8px 12px;
+    }
+  
+    .Boards-cards-sections {
+      padding: 5px;
+    }
+  
+    .Boards-cards img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .Boards-cards {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .Boards-section1 h5 {
+      font-size: 1.2rem;
+    }
+  
+    .Boards-section-filter, .Boards-section-info {
+      width: 16px;
+      height: 16px;
+    }
+  
+    .Boards-section-filter {
+      margin: 0px 2px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .Boards-sections {
+      padding: 10px 5px;
+    }
+  
+    .Boards-section1 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .Boards-section1 Button {
+      font-size: 0.8rem;
+      padding: 6px 10px;
+    }
+  
+    .Boards-cards-sections {
+      padding: 5px;
+    }
+  
+    .Boards-cards img {
+      width: 45px;
+      height: 45px;
+    }
+  
+    .Boards-cards {
+      font-size: 0.8rem;
+      padding: 5px;
+    }
+  
+    .Boards-section1 h5 {
+      font-size: 1.1rem;
+    }
+  
+    .Boards-section-filter, .Boards-section-info {
+      width: 14px;
+      height: 14px;
+    }
+  
+    .Boards-section-filter {
+      margin: 0px 1px;
+    }
+  }
+  

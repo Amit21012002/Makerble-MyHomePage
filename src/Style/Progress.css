@@ -1,0 +1,93 @@
+.Progress-sections{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px ;
+    background-color: white;
+    color: #357ab5;
+    padding: 20px 20px;
+    margin: 10px;
+    margin-left: 0;
+    justify-content: center;
+    }
+    
+    .Progress-section1 Button{
+    margin: 3px;
+    
+    margin-left: auto;
+    display: flex;
+    color: #357ab5;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    
+    }
+    
+    .Progress-sections a{
+    float: right;
+    margin-left: auto;
+    }
+    
+    .Progress-section1{
+    display: flex; 
+    flex-direction: row ;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    }
+    
+
+    
+    .cards-sections{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+    
+    .Progress-cards{
+        display: flex;
+        flex-direction: row;
+        color: black;
+        width: 100%;
+        color: #357ab5;
+        margin: 5px 0px;
+    }
+    
+    .Progress-cards img{
+    width: 70px;
+    height: 70px;
+    }
+
+    .Progress-cards h1{
+height: 30px;
+width: 30px;
+background-color: green;
+border-radius: 100%;
+
+
+    }
+
+    .progress-details{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 70%;
+        justify-content: center;
+        margin: auto;
+        gap: 0;
+    }
+
+    .progress-details p{
+font-size: 10px;
+line-height: 5px;
+    }
+
+     .Progress-cards svg{
+background-color: grey;
+color: white;
+    }
+
+    ProgressBar{
+        width: 50px;
+    }
